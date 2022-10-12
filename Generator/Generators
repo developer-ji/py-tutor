@@ -1,0 +1,29 @@
+# Generator are iterable but with some twist
+generator jiski length let's say 10 hai
+You run a for loop on that generator for 5 times.
+If you run a for loop on the same generator again it will start picking the items from the 6th indexing
+
+## If you run again
+```python
+x = [1,2,3,4,5,6,7,8,9]
+gener = (i for x in x)
+count = 0
+```
+```python
+## It will print till 5th indexing
+for i in gener:
+    print(i)
+    count += 1
+    if count >5 : break
+```
+
+```python
+## It will start from 6th indexing
+for i in gener:
+    print(i)
+```
+```python
+## Its going to be empty
+for i in gener:
+    print(i) 
+```

@@ -1,0 +1,2 @@
+NAME = "Kitten"
+COLOR = "Black"
