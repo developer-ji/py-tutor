@@ -13,10 +13,11 @@
 word_1 = "amarkantak"
 word_2 = "allahabadk"
 common = [] 
-
+count = 0
 for i in word_2:
     if i in word_1 and i not in common:
         common.append(i)
+        count+1
         
         
     

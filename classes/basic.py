@@ -13,7 +13,7 @@
 # # list
 # a = A() # instance of class A
 # a.xl(6, *range(4))
-# # a.yl(8)
+# a.yl(8)
 
 
 

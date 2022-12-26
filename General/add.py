@@ -30,8 +30,7 @@ Enter
 if k == 10:
     print(add())
 elif k == 20:
-    print(sub())
-elif k == 30:
+    print(sub())elif k == 30:
     print(multiply())
 elif k== 40:
     print(divied())        

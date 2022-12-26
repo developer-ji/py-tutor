@@ -40,11 +40,11 @@ for i in word_2:
         remove_duplicate.append(i)
 
 print("common= ",common)
-print("remove_duplicate= ",remove_duplicate)
+# print("remove_duplicate= ",remove_duplicate)
 
 
-one_time = []
-for i in remove_duplicate:
-    if i not in one_time:
-        one_time.append(i)
-print("one_time= ", one_time)
+# one_time = []
+# for i in remove_duplicate:
+#     if i not in one_time:
+#         one_time.append(i)
+# print("one_time= ", one_time)

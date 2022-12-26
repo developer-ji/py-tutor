@@ -26,3 +26,13 @@ def sort_num(x_num):
     return x
 print(sort_num(num))
 
+
+num = [2, 29, 70, 11, 43, 39, 71, 18, 58, 23]
+def greather_num(x_num):
+    x = 100
+    for i in x_num:#2 ,29
+        if i <= x:#2 ,29
+            # print(i)
+            x = i
+    return x
+print(greather_num(num))
